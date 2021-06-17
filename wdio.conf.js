@@ -4,7 +4,8 @@ exports.config = {
         [
             "image-comparison",
             {
-                screenshotPath: "screens/"
+                screenshotPath: "screens/",
+                hideScrollBars: true // it is true by default, but anyway
             }
         ]
     ],
